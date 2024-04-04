@@ -12,6 +12,6 @@ public class Aquila extends Animale{
 
     @Override
     public void mangia() {
-        System.out.println("sta mangiando un topolino");
+        System.out.println("sta mangiando un topolino.");
     }
 }

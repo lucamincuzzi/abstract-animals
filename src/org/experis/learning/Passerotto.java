@@ -12,6 +12,6 @@ public class Passerotto extends Animale{
 
     @Override
     public void mangia() {
-        System.out.println();
+        System.out.println("sta mangiando un verme.");
     }
 }

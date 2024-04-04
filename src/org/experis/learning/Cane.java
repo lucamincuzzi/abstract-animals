@@ -12,6 +12,6 @@ public class Cane extends Animale{
 
     @Override
     public void mangia() {
-        System.out.println("sta mangiando le crocchette");
+        System.out.println("sta mangiando le crocchette.");
     }
 }
