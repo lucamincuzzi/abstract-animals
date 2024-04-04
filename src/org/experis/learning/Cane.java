@@ -1,6 +1,6 @@
 package org.experis.learning;
 
-public class Cane extends Animale{
+public class Cane extends Animale implements Nuotante{
     public Cane(String nome) {
         super(nome);
     }
@@ -13,5 +13,10 @@ public class Cane extends Animale{
     @Override
     public void mangia() {
         System.out.println("sta mangiando le crocchette.");
+    }
+
+    @Override
+    public void nuota() {
+        System.out.println("Bau! Sto nuotando!");
     }
 }

@@ -1,6 +1,6 @@
 package org.experis.learning;
 
-public class Passerotto extends Animale{
+public class Passerotto extends Animale implements Volante{
     public Passerotto(String nome) {
         super(nome);
     }
@@ -13,5 +13,10 @@ public class Passerotto extends Animale{
     @Override
     public void mangia() {
         System.out.println("sta mangiando un verme.");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Cip cip, volo!");
     }
 }
