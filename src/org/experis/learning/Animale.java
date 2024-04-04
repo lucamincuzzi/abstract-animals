@@ -11,9 +11,7 @@ public abstract class Animale {
     }
 
     // Metodi
-
         // Getter e Setter
-
     public String getNome() {
         return nome;
     }
